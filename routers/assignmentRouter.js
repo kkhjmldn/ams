@@ -3,7 +3,7 @@ const router = express.Router()
 
 const Controller = require('../controllers/assignmentController')
 
-router.get('/test', Controller.test)
+
 router.post(`/assignment`,Controller.create)
 router.get(`/assignments`,Controller.getAll)
 router.get(`/assignment/:id`,Controller.getOne)
